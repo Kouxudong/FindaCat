@@ -1,5 +1,3 @@
-"# 1" 
-"#android-project-Kouxudongandroid-project-Kouxudong" 
-"# findacat" 
-"# find_a_cat" 
-"# findacat" 
+"# "This is an app for find cat nearby us"
+"#  Using PetFinder api " 
+
