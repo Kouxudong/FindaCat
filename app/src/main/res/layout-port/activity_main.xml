@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+
+    tools:context=".activity.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction_textview"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        />
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cat"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/find_a_cat"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="0dp"
+        android:text="@string/find_a_cat_text" />
+
+    <Button
+        android:id="@+id/favorite_cat"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/favorite_cat_text"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/catfact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/catfact"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        />
+
+</LinearLayout>

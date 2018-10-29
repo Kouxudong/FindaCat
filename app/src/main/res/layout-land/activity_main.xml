@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+
+    tools:context=".activity.MainActivity">
+
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/introduction_textview"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="1dp"
+        android:src="@drawable/cat"
+
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="75dp"
+    android:layout_marginLeft="15dp"
+    >
+    <Button
+        android:id="@+id/find_a_cat"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="0dp"
+        android:text="@string/find_a_cat_text" />
+
+    <Button
+        android:id="@+id/favorite_cat"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/favorite_cat_text" />
+
+    <TextView
+        android:id="@+id/catfact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/catfact"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+</LinearLayout>
+
+
+
+</LinearLayout>

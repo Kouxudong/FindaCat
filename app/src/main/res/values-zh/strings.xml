@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">找猫</string>
+    <string name="find_a_cat_text">查找</string>
+    <string name="favorite_cat_text">喜爱</string>
+    <string name="text">欢迎来到查询猫</string>
+    <string name="introduction_textview">找猫</string>
+    <string name="zipcode_button_text">邮编</string>
+    <string name="title_text">标题</string>
+    <string name="detail_textview">细节</string>
+    <string name="title_activity_pet_details">PetDetailsActivity</string>
+    <string name="appbar_scrolling_view_behavior">app</string>
+    <string name="share">分享</string>
+    <string name="share_message">分享信息</string>
+    <string name="catfact" translatable="false">猫的信息</string>
+    <string name="zipcode_text">邮编</string>
+    <string name="Cat_detail">猫的详细信息</string>
+    <string name="pet_detail">详细信息</string>
+    <string name="EmailShare">分享邮箱</string>
+    <string name="Favorite">喜爱</string>
+    <string name="Info">信息</string>
+    <string name="nearbycat">附近的猫</string>
+    <string name="pet_share1">请发邮件以查询更多的猫</string>
+    <string name="pet_share2">我感兴趣的猫叫: %s</string>
+    <string name="permissions_granted">允许定位</string>
+    <string name="permissions_denied">拒绝</string>
+    <string name="Share_Message">这个猫的名字是:%s</string>
+    <string name="share_email">发送 %s 获得更多信息</string></resources>

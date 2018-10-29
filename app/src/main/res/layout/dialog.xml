@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="enter zipcode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+<Button
+    android:text="Done"
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
