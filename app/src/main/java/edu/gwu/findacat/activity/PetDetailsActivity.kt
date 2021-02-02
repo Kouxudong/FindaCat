@@ -80,7 +80,7 @@ class PetDetailsActivity : AppCompatActivity() {
             sendIntent.type = "text/plain"
 
 
-
+        //test teste
         startActivity(Intent.createChooser(sendIntent, resources.getText(R.string.EmailShare)))
 
     }
