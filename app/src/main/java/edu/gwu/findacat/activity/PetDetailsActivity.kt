@@ -67,7 +67,7 @@ class PetDetailsActivity : AppCompatActivity() {
 
         sendIntent.type = "text/plain"
 
-
+dvfrgrgregrgergregr
         startActivity(Intent.createChooser(sendIntent, resources.getText(R.string.share)))
     }
 
